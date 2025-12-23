@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gamer Profile</title>
+    <style>
+        :root {
+            --bg: #f5f7fa;
+            --card-bg: #ffffff;
+            --primary: #4a6cf7;
+            --text: #333;
+            --radius: 16px;
+        }
+
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+        }
+
+        .banner {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            display: block;
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--primary);
+            margin-top: 20px;
+            font-size: 2.5rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 25px;
+            border-radius: var(--radius);
+            margin: 20px 0;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        h2,
+        h3 {
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ol,
+        ul {
+            padding-left: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .card {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Gamer Profile</h1>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>แนะนำตัว</h2>
+            <p>สวัสดีครับ ผมเป็นคนที่รักการเล่นเกมมาตั้งแต่เด็ก และพอมีเวลาว่างก็จะหาเกมใหม่ ๆ มาเล่นเสมอ
+                ไม่ว่าจะเป็นเกมผจญภัย เกมท้าทาย หรือเกมแนวผ่อนคลาย
+                ผมรู้สึกว่าเกมเป็นพื้นที่ที่ให้ทั้งความสนุกและพัฒนาทักษะไปพร้อมกันครับ</p>
+        </div>
+
+        <div class="card">
+            <h2>อุปกรณ์ที่ใช้</h2>
+            <ul>
+                <li>คอมพิวเตอร์ตั้งโต๊ะ (PC) — สเปคกลางค่อนสูง เล่นเกมออนไลน์ได้ลื่น</li>
+                <li>โน้ตบุ๊กเกมมิ่ง — พกพาสะดวกเมื่อไปนอกบ้าน</li>
+                <li>คอนโซล/มือถือ — เล่นเกมแนว Casual หรือเกมที่เน้นรีแลกซ์</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>เกมที่ชื่นชอบ</h2>
+            <p>นี่คือเกมที่ผมชอบที่สุด จัดอันดับจากความรู้สึกส่วนตัวว่าชอบที่สุดและสนุกที่สุดครับ</p>
+            <ol>
+                <li>The Legend of Zelda: Breath of the Wild — โลกเปิดกว้างและอิสระ</li>
+                <li>Hollow Knight — เกมอินดี้แพลตฟอร์มที่ท้าทาย</li>
+                <li>Minecraft — สร้างสรรค์ได้อย่างไร้ขีดจำกัด</li>
+            </ol>
+            <h3>เกมที่เล่นจบแล้ว</h3>
+            <ol>
+                <li>Portal 2</li>
+                <li>The Witcher 3: Wild Hunt</li>
+                <li>Celeste</li>
+            </ol>
+        </div>
+
+        <div class="card">
+            <h2>แหล่งข้อมูลและลิงก์ที่น่าสนใจ</h2>
+            <p>ถ้าต้องการค้นหาข้อมูลเกี่ยวกับเกม หรืออยากลองเกมใหม่ ๆ ดูเพิ่มเติม ลิงก์เหล่านี้คือแหล่งที่ผมใช้บ่อย ๆ
+                ครับ:</p>
+            <p><a href="https://store.steampowered.com/" target="_blank">ร้านเกม Steam</a></p>
+            <p><a href="https://en.wikipedia.org/wiki/Video_game" target="_blank">ข้อมูลเกี่ยวกับวิดีโอเกม
+                    (Wikipedia)</a></p>
+        </div>
+
+        <div class="card">
+            <h2>เพิ่มเติม</h2>
+            <p>ถ้าอยากให้ผมเพิ่มรายชื่อเกมอื่น หรือเพิ่มรูปอุปกรณ์ที่ใช้จริง บอกได้เลยครับ
+                ผมยินดีปรับให้เข้ากับสไตล์ของผมมากที่สุด</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
